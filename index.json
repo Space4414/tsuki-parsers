@@ -23,27 +23,27 @@
     },
     {
       "name": "ZeistManga",
-      "version": "1.0",
+      "version": "1.1",
       "file": "templates/zeistmanga.json",
-      "description": "Blogger/Blogspot-based manga sites using the Atom JSON feed. Works on 50+ Indonesian/Spanish/Arabic scanlation blogs."
+      "description": "Blogger/Blogspot-based manga sites using the Atom JSON feed. Works on 50+ Indonesian/Spanish/Arabic scanlation blogs. Auto-detects via Blogger Atom endpoint probe."
     },
     {
       "name": "Keyoapp",
-      "version": "1.0",
+      "version": "1.1",
       "file": "templates/keyoapp.json",
-      "description": "Keyoapp scanlation CMS — used by AsuraScans, FingerScans, Luminous Scans, and 12+ English groups."
+      "description": "Keyoapp scanlation CMS — used by AsuraScans, FingerScans, Luminous Scans, and 12+ English groups. Auto-detects via keyoapp HTML marker."
     },
     {
       "name": "HeanCms",
-      "version": "1.0",
+      "version": "1.1",
       "file": "templates/heancms.json",
-      "description": "HeanCms JSON REST API platform — used by ReaperScans, FlameScans, VoidScans."
+      "description": "HeanCms JSON REST API platform — used by ReaperScans, FlameScans, VoidScans. Auto-detects via /api/series endpoint probe."
     },
     {
       "name": "Madtheme",
-      "version": "1.0",
+      "version": "1.1",
       "file": "templates/madtheme.json",
-      "description": "Madtheme Bootstrap manga theme — used by MangaKomi, Zinmanga, and 10+ aggregators."
+      "description": "Madtheme Bootstrap manga theme — used by MangaKomi, Zinmanga, and 10+ aggregators. Auto-detects via book-item HTML fingerprint."
     },
     {
       "name": "FoolSlide",
@@ -53,21 +53,21 @@
     },
     {
       "name": "Liliana",
-      "version": "1.0",
+      "version": "1.1",
       "file": "templates/liliana.json",
-      "description": "Liliana CMS — modern PHP manga platform. Used by KulManga, Manga-Raw.club, and international portals."
+      "description": "Liliana CMS — modern PHP manga platform. Used by KulManga, Manga-Raw.club, and international portals. Auto-detects via latest-updated fingerprint."
     },
     {
       "name": "Mangabox",
-      "version": "1.0",
+      "version": "1.1",
       "file": "templates/mangabox.json",
-      "description": "Mangabox / Mangakakalot-successor CMS — used by Mangakakalot.to, MangaBox, and 7+ derivatives."
+      "description": "Mangabox / Mangakakalot-successor CMS — used by Mangakakalot.to, MangaBox, and 7+ derivatives. Auto-detects via content-genres-item fingerprint."
     },
     {
       "name": "Mmrcms",
-      "version": "1.0",
+      "version": "1.1",
       "file": "templates/mmrcms.json",
-      "description": "PHP Manga CMS (MMRCMS) — powers 17+ sites including MangaReader.org, Mangaeden, IsekaiScan."
+      "description": "PHP Manga CMS (MMRCMS) — powers 17+ sites including MangaReader.org, Mangaeden, IsekaiScan. Auto-detects via filterList + chapter-item fingerprints."
     },
     {
       "name": "MangaReader",
@@ -77,15 +77,15 @@
     },
     {
       "name": "WpComics",
-      "version": "1.0",
+      "version": "1.1",
       "file": "templates/wpcomics.json",
-      "description": "WordPress WpComics theme — Madara family variant used by Vietnamese and multilingual aggregators."
+      "description": "WordPress WpComics theme — Madara family variant used by Vietnamese and multilingual aggregators. Auto-detects via tim-truyen fingerprint."
     },
     {
       "name": "AnimeBootstrap",
-      "version": "1.0",
+      "version": "1.1",
       "file": "templates/animebootstrap.json",
-      "description": "AnimeBootstrap/Komikcast theme — used by 50+ Indonesian and international scanlation sites."
+      "description": "AnimeBootstrap/Komikcast theme — used by 50+ Indonesian and international scanlation sites. Auto-detects via chapternum/chapterdate fingerprints."
     },
     {
       "name": "Scan",
@@ -95,9 +95,9 @@
     },
     {
       "name": "Gattsu",
-      "version": "1.0",
+      "version": "1.1",
       "file": "templates/gattsu.json",
-      "description": "Gattsu theme — lightweight manga CMS used by Brazilian and Spanish scanlation groups."
+      "description": "Gattsu theme — lightweight manga CMS used by Brazilian and Spanish scanlation groups. Auto-detects via manga-list-item fingerprint."
     },
     {
       "name": "MangaHub",
