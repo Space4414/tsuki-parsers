@@ -1,7 +1,10 @@
 {
   "name": "WpComics",
-  "version": "1.0",
+  "version": "1.1",
   "type": "html",
+  "fingerprints": [
+    "tim-truyen"
+  ],
   "mangaList": {
     "endpoint": "/manga/",
     "pagination": "page",
