@@ -1,0 +1,39 @@
+{
+  "name": "Liliana",
+  "version": "1.0",
+  "type": "html",
+  "mangaList": {
+    "endpoint": "/filter/",
+    "pagination": "page",
+    "pageParam": "page",
+    "pathBased": true,
+    "sortParam": "sort",
+    "sortValues": {
+      "updated": "latest-updated",
+      "popularity": "views",
+      "newest": "new",
+      "alphabetical": "az",
+      "rating": "score"
+    },
+    "itemSelector": "div#main div.grid > div, .manga-card",
+    "titleSelector": ".h5.card-title a, .manga-title a",
+    "coverSelector": ".cover img, img.lazy",
+    "linkSelector": "a.cover, .manga-title a",
+    "searchEndpoint": "/search/",
+    "searchParam": "keyword"
+  },
+  "mangaDetail": {
+    "titleSelector": "h1.entry-title, .manga-title h1",
+    "coverSelector": ".cover img, .manga-cover img",
+    "descriptionSelector": ".entry-content, .manga-summary",
+    "statusSelector": ".status-value"
+  },
+  "chapterList": {
+    "selector": ".list-chapter a, ul.chapter li a",
+    "titleSelector": "span.chapter-title, span",
+    "linkSelector": "a"
+  },
+  "pageList": {
+    "imageSelector": ".chapter-content img, .read-content img"
+  }
+}
