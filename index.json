@@ -13,37 +13,97 @@
       "name": "MangaThemesia",
       "version": "1.1",
       "file": "templates/mangathemesia.json",
-      "description": "MangaThemesia WordPress child theme used by sites like Reaperscans, Asuracomic, and other modern scanlation groups."
+      "description": "MangaThemesia WordPress child theme used by Reaperscans, Asuracomic, and modern scanlation groups."
     },
     {
       "name": "MangaStream",
       "version": "1.0",
       "file": "templates/mangastream.json",
-      "description": "WPManga / MangaStream theme — classic WordPress manga theme used by Toonily, MangaStream mirrors, and similar sites."
+      "description": "WPManga / MangaStream theme — used by Toonily, MangaStream mirrors, and similar sites."
     },
     {
       "name": "ZeistManga",
       "version": "1.0",
       "file": "templates/zeistmanga.json",
-      "description": "Blogger/Blogspot-based manga sites using the Atom JSON feed. Works on MangaSoul, LonerTL, and 50+ Indonesian/Spanish/Arabic scanlation blogs."
+      "description": "Blogger/Blogspot-based manga sites using the Atom JSON feed. Works on 50+ Indonesian/Spanish/Arabic scanlation blogs."
     },
     {
       "name": "Keyoapp",
       "version": "1.0",
       "file": "templates/keyoapp.json",
-      "description": "Keyoapp scanlation CMS — modern Tailwind-based platform used by AsuraScans, FingerScans, Luminous Scans, and 12+ English groups."
+      "description": "Keyoapp scanlation CMS — used by AsuraScans, FingerScans, Luminous Scans, and 12+ English groups."
     },
     {
       "name": "HeanCms",
       "version": "1.0",
       "file": "templates/heancms.json",
-      "description": "HeanCms JSON REST API platform — used by ReaperScans, FlameScans, VoidScans. API served from api.{domain}."
+      "description": "HeanCms JSON REST API platform — used by ReaperScans, FlameScans, VoidScans."
     },
     {
       "name": "Madtheme",
       "version": "1.0",
       "file": "templates/madtheme.json",
-      "description": "Madtheme Bootstrap manga theme — used by MangaKomi, Zinmanga, and 10 other aggregators."
+      "description": "Madtheme Bootstrap manga theme — used by MangaKomi, Zinmanga, and 10+ aggregators."
+    },
+    {
+      "name": "FoolSlide",
+      "version": "1.0",
+      "file": "templates/foolslide.json",
+      "description": "FoolSlide2 open-source scanlation CMS — used by many scanlation group sites (Fallen Angels, Helvetica, etc.)."
+    },
+    {
+      "name": "Liliana",
+      "version": "1.0",
+      "file": "templates/liliana.json",
+      "description": "Liliana CMS — modern PHP manga platform. Used by KulManga, Manga-Raw.club, and international portals."
+    },
+    {
+      "name": "Mangabox",
+      "version": "1.0",
+      "file": "templates/mangabox.json",
+      "description": "Mangabox / Mangakakalot-successor CMS — used by Mangakakalot.to, MangaBox, and 7+ derivatives."
+    },
+    {
+      "name": "Mmrcms",
+      "version": "1.0",
+      "file": "templates/mmrcms.json",
+      "description": "PHP Manga CMS (MMRCMS) — powers 17+ sites including MangaReader.org, Mangaeden, IsekaiScan."
+    },
+    {
+      "name": "MangaReader",
+      "version": "1.0",
+      "file": "templates/mangareader.json",
+      "description": "MangaReader.to card-grid layout. Covers MangaReader.cc, Mangaread.org, ReadMangaFree.net."
+    },
+    {
+      "name": "WpComics",
+      "version": "1.0",
+      "file": "templates/wpcomics.json",
+      "description": "WordPress WpComics theme — Madara family variant used by Vietnamese and multilingual aggregators."
+    },
+    {
+      "name": "AnimeBootstrap",
+      "version": "1.0",
+      "file": "templates/animebootstrap.json",
+      "description": "AnimeBootstrap/Komikcast theme — used by 50+ Indonesian and international scanlation sites."
+    },
+    {
+      "name": "Scan",
+      "version": "1.0",
+      "file": "templates/scan.json",
+      "description": "Generic scan/reader CMS used by smaller regional scanlation group sites."
+    },
+    {
+      "name": "Gattsu",
+      "version": "1.0",
+      "file": "templates/gattsu.json",
+      "description": "Gattsu theme — lightweight manga CMS used by Brazilian and Spanish scanlation groups."
+    },
+    {
+      "name": "MangaHub",
+      "version": "1.0",
+      "file": "templates/mangahub.json",
+      "description": "MangaHub CMS — used by MangaHub.io and derivative readers."
     }
   ]
 }
