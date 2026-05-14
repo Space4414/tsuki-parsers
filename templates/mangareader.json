@@ -1,0 +1,38 @@
+{
+  "name": "MangaReader",
+  "version": "1.0",
+  "type": "html",
+  "mangaList": {
+    "endpoint": "/filter",
+    "pagination": "page",
+    "pageParam": "page",
+    "sortParam": "sort",
+    "sortValues": {
+      "updated": "latest-updated",
+      "popularity": "most-viewed",
+      "newest": "newest",
+      "rating": "score",
+      "alphabetical": "name-az"
+    },
+    "itemSelector": ".manga-poster, .item",
+    "titleSelector": ".manga-name a, h3 a",
+    "coverSelector": ".manga-poster img, img",
+    "linkSelector": ".manga-poster a, h3 a",
+    "searchEndpoint": "/search",
+    "searchParam": "keyword"
+  },
+  "mangaDetail": {
+    "titleSelector": ".manga-name h2, h2.manga-name",
+    "coverSelector": ".manga-poster-img, .manga-img img",
+    "descriptionSelector": ".manga-description, .description",
+    "statusSelector": ".manga-status, .status-value"
+  },
+  "chapterList": {
+    "selector": ".chapter-list li, ul.chapters li",
+    "titleSelector": "a span, a",
+    "linkSelector": "a"
+  },
+  "pageList": {
+    "imageSelector": "#chapter-img, .chapter-img, .viewer img"
+  }
+}
