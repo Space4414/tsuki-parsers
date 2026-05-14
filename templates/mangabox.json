@@ -1,0 +1,36 @@
+{
+  "name": "Mangabox",
+  "version": "1.0",
+  "type": "html",
+  "mangaList": {
+    "endpoint": "/manga-list",
+    "pagination": "page",
+    "pageParam": "page",
+    "sortParam": "type",
+    "sortValues": {
+      "updated": "latest",
+      "popularity": "topview",
+      "newest": "newest"
+    },
+    "itemSelector": ".content-genres-item, .list-truyen-item-wrap",
+    "titleSelector": "h3.genres-item-name a, .list-truyen-item-wrap h3 a",
+    "coverSelector": "img.img-loading, img",
+    "linkSelector": "h3 a",
+    "searchEndpoint": "/search/story/",
+    "searchPathBased": true
+  },
+  "mangaDetail": {
+    "titleSelector": ".story-info-right h1, .manga-info-text h1",
+    "coverSelector": ".story-info-left img, .manga-info-pic img",
+    "descriptionSelector": "#panel-story-info-description"
+  },
+  "chapterList": {
+    "selector": ".row-content-chapter li, ul.chapter-list li",
+    "titleSelector": "a",
+    "linkSelector": "a",
+    "dateSelector": ".chapter-time.text-nowrap"
+  },
+  "pageList": {
+    "imageSelector": ".container-chapter-reader img"
+  }
+}
