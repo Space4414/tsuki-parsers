@@ -1,0 +1,31 @@
+{
+  "name": "FoolSlide",
+  "version": "1.0",
+  "type": "html",
+  "mangaList": {
+    "endpoint": "/directory/",
+    "pagination": "page",
+    "pageParam": "page",
+    "pathBased": true,
+    "itemSelector": ".list-item, .comic_item",
+    "titleSelector": ".title a, h3 a",
+    "coverSelector": "img",
+    "linkSelector": ".title a, h3 a",
+    "searchEndpoint": "/search/",
+    "searchMethod": "POST",
+    "searchParam": "q"
+  },
+  "mangaDetail": {
+    "titleSelector": ".comic-info h1, .title h1, h1.comic, .series-title",
+    "coverSelector": ".comic-info img, .comic_cover img, .thumbnail img",
+    "descriptionSelector": ".comic-description, .description, .summary"
+  },
+  "chapterList": {
+    "selector": ".chapter-list li, .list-chapters li",
+    "titleSelector": "a",
+    "linkSelector": "a"
+  },
+  "pageList": {
+    "imageSelector": ".open-image img, .chapter-img img, img.open"
+  }
+}
