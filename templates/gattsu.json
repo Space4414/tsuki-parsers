@@ -1,0 +1,29 @@
+{
+  "name": "Gattsu",
+  "version": "1.0",
+  "type": "html",
+  "mangaList": {
+    "endpoint": "/",
+    "pagination": "page",
+    "pageParam": "page",
+    "itemSelector": ".manga-list .manga-list-item",
+    "titleSelector": "h2.manga-title a, .manga-title a",
+    "coverSelector": "img",
+    "linkSelector": "h2 a, .manga-title a",
+    "searchEndpoint": "/?s=",
+    "searchParam": "s"
+  },
+  "mangaDetail": {
+    "titleSelector": "h1, .manga-title h1",
+    "coverSelector": ".manga-cover img, .cover img",
+    "descriptionSelector": ".manga-summary, .description"
+  },
+  "chapterList": {
+    "selector": ".chapter-list a, .chapters li a",
+    "titleSelector": "a, span",
+    "linkSelector": "a"
+  },
+  "pageList": {
+    "imageSelector": ".manga-reader img, .reading-area img"
+  }
+}
