@@ -1,0 +1,36 @@
+{
+  "name": "MangaHub",
+  "version": "1.0",
+  "type": "html",
+  "mangaList": {
+    "endpoint": "/manga/page/",
+    "pagination": "page",
+    "pageParam": "page",
+    "pathBased": true,
+    "sortParam": "order",
+    "sortValues": {
+      "updated": "LATEST",
+      "popularity": "POPULAR",
+      "newest": "NEW"
+    },
+    "itemSelector": "li.list-group-item-danger, .list-group-item",
+    "titleSelector": "h4.media-heading a, .media-heading a",
+    "coverSelector": "img",
+    "linkSelector": "h4 a, .media-heading a",
+    "searchEndpoint": "/search/page/1",
+    "searchParam": "q"
+  },
+  "mangaDetail": {
+    "titleSelector": "h1, .manga-title",
+    "coverSelector": ".manga-thumbnail img, img.thumbnail",
+    "descriptionSelector": "p.text-overflow, .manga-description"
+  },
+  "chapterList": {
+    "selector": "ul.list-group li",
+    "titleSelector": "span",
+    "linkSelector": "a"
+  },
+  "pageList": {
+    "imageSelector": "img#chapter-image, .chapter-img"
+  }
+}
