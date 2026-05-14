@@ -1,7 +1,10 @@
 {
   "name": "Mangabox",
-  "version": "1.0",
+  "version": "1.1",
   "type": "html",
+  "fingerprints": [
+    "content-genres-item"
+  ],
   "mangaList": {
     "endpoint": "/manga-list",
     "pagination": "page",
