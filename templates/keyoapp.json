@@ -1,0 +1,34 @@
+{
+  "name": "Keyoapp",
+  "version": "1.0",
+  "type": "html",
+  "mangaList": {
+    "endpoint": "/series/",
+    "pagination": "page",
+    "pageParam": "page",
+    "method": "GET",
+    "itemSelector": "div.grid > div.group",
+    "titleSelector": "a.text-sm",
+    "coverSelector": "img",
+    "linkSelector": "a",
+    "searchEndpoint": "/series/",
+    "searchParam": "search"
+  },
+  "mangaDetail": {
+    "titleSelector": "h1",
+    "coverSelector": "div.md\\:w-48 img",
+    "descriptionSelector": "div.prose p"
+  },
+  "chapterList": {
+    "selector": "#chapters > a",
+    "titleSelector": "p.font-semibold",
+    "linkSelector": "a"
+  },
+  "pageList": {
+    "imageSelector": "#pages img, div.cursor-pointer img"
+  },
+  "genres": {
+    "endpoint": "/series/",
+    "selector": "div.genres a, a[href*='/series/?genre=']"
+  }
+}

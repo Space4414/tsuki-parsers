@@ -1,0 +1,30 @@
+{
+  "name": "ZeistManga",
+  "version": "1.0",
+  "type": "html",
+  "mangaList": {
+    "endpoint": "/feeds/posts/default/-/Series",
+    "pagination": "offset",
+    "pageParam": "start-index",
+    "method": "GET",
+    "itemSelector": "entry",
+    "titleSelector": "title",
+    "coverSelector": "media\\:thumbnail",
+    "linkSelector": "link[rel=alternate]",
+    "searchEndpoint": "/feeds/posts/default/-/Series",
+    "searchParam": "q"
+  },
+  "mangaDetail": {
+    "titleSelector": "h2.post-title",
+    "coverSelector": ".post-body img",
+    "descriptionSelector": ".post-body p"
+  },
+  "chapterList": {
+    "selector": ".chapter-list li, .tab-content li",
+    "titleSelector": "a",
+    "linkSelector": "a"
+  },
+  "pageList": {
+    "imageSelector": "#readerarea img, .reading-content img"
+  }
+}

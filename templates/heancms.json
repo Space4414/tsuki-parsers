@@ -1,0 +1,34 @@
+{
+  "name": "HeanCms",
+  "version": "1.0",
+  "type": "html",
+  "mangaList": {
+    "endpoint": "/series",
+    "pagination": "page",
+    "pageParam": "page",
+    "method": "GET",
+    "itemSelector": "div.group",
+    "titleSelector": "h3, .series-title",
+    "coverSelector": "img",
+    "linkSelector": "a",
+    "searchEndpoint": "/series",
+    "searchParam": "query_string"
+  },
+  "mangaDetail": {
+    "titleSelector": "h1",
+    "coverSelector": "img.series-cover, div.cover img",
+    "descriptionSelector": "div.description p, p.summary"
+  },
+  "chapterList": {
+    "selector": "li.chapter-item, div.chapter-list li",
+    "titleSelector": "a",
+    "linkSelector": "a"
+  },
+  "pageList": {
+    "imageSelector": "img.pages-images, div#chapter-images img, .chapter-img"
+  },
+  "genres": {
+    "endpoint": "/series",
+    "selector": "a[href*='/series?genre'], div.genres a"
+  }
+}

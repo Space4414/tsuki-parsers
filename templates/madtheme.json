@@ -1,0 +1,34 @@
+{
+  "name": "Madtheme",
+  "version": "1.0",
+  "type": "html",
+  "mangaList": {
+    "endpoint": "/search/",
+    "pagination": "page",
+    "pageParam": "page",
+    "method": "GET",
+    "itemSelector": "div.book-item",
+    "titleSelector": "div.title",
+    "coverSelector": "img",
+    "linkSelector": "a",
+    "searchEndpoint": "/search/",
+    "searchParam": "q"
+  },
+  "mangaDetail": {
+    "titleSelector": "h1",
+    "coverSelector": "img.lazy",
+    "descriptionSelector": "div.description p, .summary__content"
+  },
+  "chapterList": {
+    "selector": "ul.chapter-list li, li.chapter-item",
+    "titleSelector": "a",
+    "linkSelector": "a"
+  },
+  "pageList": {
+    "imageSelector": "div.chapter-images img.lazyload, .chapter-images img"
+  },
+  "genres": {
+    "endpoint": "/genres/",
+    "selector": "ul.genres li a, div.genres a"
+  }
+}

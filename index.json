@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-05-14",
+  "description": "Official Tsuki parser template index. The app checks this file at startup and pulls any template the user doesn't have locally.",
+  "templates": [
+    {
+      "name": "Madara",
+      "version": "1.3",
+      "file": "templates/madara.json",
+      "description": "WordPress Madara theme — covers 500+ sites including MangaKakalot clones, Asura mirrors, and most popular English scanlation WordPress installs."
+    },
+    {
+      "name": "MangaThemesia",
+      "version": "1.1",
+      "file": "templates/mangathemesia.json",
+      "description": "MangaThemesia WordPress child theme used by sites like Reaperscans, Asuracomic, and other modern scanlation groups."
+    },
+    {
+      "name": "MangaStream",
+      "version": "1.0",
+      "file": "templates/mangastream.json",
+      "description": "WPManga / MangaStream theme — classic WordPress manga theme used by Toonily, MangaStream mirrors, and similar sites."
+    },
+    {
+      "name": "ZeistManga",
+      "version": "1.0",
+      "file": "templates/zeistmanga.json",
+      "description": "Blogger/Blogspot-based manga sites using the Atom JSON feed. Works on MangaSoul, LonerTL, and 50+ Indonesian/Spanish/Arabic scanlation blogs."
+    },
+    {
+      "name": "Keyoapp",
+      "version": "1.0",
+      "file": "templates/keyoapp.json",
+      "description": "Keyoapp scanlation CMS — modern Tailwind-based platform used by AsuraScans, FingerScans, Luminous Scans, and 12+ English groups."
+    },
+    {
+      "name": "HeanCms",
+      "version": "1.0",
+      "file": "templates/heancms.json",
+      "description": "HeanCms JSON REST API platform — used by ReaperScans, FlameScans, VoidScans. API served from api.{domain}."
+    },
+    {
+      "name": "Madtheme",
+      "version": "1.0",
+      "file": "templates/madtheme.json",
+      "description": "Madtheme Bootstrap manga theme — used by MangaKomi, Zinmanga, and 10 other aggregators."
+    }
+  ]
+}

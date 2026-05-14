@@ -1,0 +1,34 @@
+{
+  "name": "MangaStream",
+  "version": "1.0",
+  "type": "html",
+  "mangaList": {
+    "endpoint": "/manga/",
+    "pagination": "page",
+    "pageParam": "page",
+    "method": "GET",
+    "itemSelector": ".bsx",
+    "titleSelector": "a",
+    "coverSelector": "img",
+    "linkSelector": "a",
+    "searchEndpoint": "/",
+    "searchParam": "s"
+  },
+  "mangaDetail": {
+    "titleSelector": "h1.entry-title",
+    "coverSelector": ".thumb img",
+    "descriptionSelector": ".entry-content p"
+  },
+  "chapterList": {
+    "selector": "#chapterlist li",
+    "titleSelector": "span.chapternum",
+    "linkSelector": "a"
+  },
+  "pageList": {
+    "imageSelector": "#readerarea img"
+  },
+  "genres": {
+    "endpoint": "/manga/",
+    "selector": "ul.genre li a"
+  }
+}
