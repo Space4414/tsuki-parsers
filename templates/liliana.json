@@ -1,7 +1,10 @@
 {
   "name": "Liliana",
-  "version": "1.0",
+  "version": "1.1",
   "type": "html",
+  "fingerprints": [
+    "latest-updated"
+  ],
   "mangaList": {
     "endpoint": "/filter/",
     "pagination": "page",
