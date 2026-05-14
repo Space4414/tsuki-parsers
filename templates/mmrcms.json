@@ -1,0 +1,36 @@
+{
+  "name": "Mmrcms",
+  "version": "1.0",
+  "type": "html",
+  "mangaList": {
+    "endpoint": "/filterList",
+    "pagination": "page",
+    "pageParam": "page",
+    "sortParam": "sortBy",
+    "sortValues": {
+      "popularity": "views&asc=false",
+      "alphabetical": "name&asc=true",
+      "updated": "last_chapter_date&asc=false"
+    },
+    "itemSelector": "div.media, .manga-block",
+    "titleSelector": ".media-heading a, h3 a",
+    "coverSelector": ".media img, img",
+    "linkSelector": ".media-heading a, h3 a",
+    "searchParam": "query",
+    "updatedEndpoint": "/latest-release"
+  },
+  "mangaDetail": {
+    "titleSelector": ".widget-title h2, h2.widget-title",
+    "coverSelector": ".img-responsive",
+    "descriptionSelector": ".description, .well p",
+    "statusSelector": ".label-success, .label-warning, .label-danger"
+  },
+  "chapterList": {
+    "selector": "li.chapter-item, .chapters li",
+    "titleSelector": "a h5, a strong",
+    "linkSelector": "a"
+  },
+  "pageList": {
+    "imageSelector": "#all img, .viewer img"
+  }
+}
