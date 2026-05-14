@@ -1,0 +1,32 @@
+{
+  "name": "WpComics",
+  "version": "1.0",
+  "type": "html",
+  "mangaList": {
+    "endpoint": "/manga/",
+    "pagination": "page",
+    "pageParam": "page",
+    "pathBased": true,
+    "itemSelector": ".page-item-detail, .manga",
+    "titleSelector": ".post-title a",
+    "coverSelector": ".c-image-hover img",
+    "linkSelector": ".post-title a",
+    "searchEndpoint": "/?s=",
+    "searchParam": "s"
+  },
+  "mangaDetail": {
+    "titleSelector": ".post-title h1",
+    "coverSelector": ".summary_image img",
+    "descriptionSelector": ".description-summary .summary__content",
+    "statusSelector": ".post-status .summary-content"
+  },
+  "chapterList": {
+    "selector": "li.wp-manga-chapter",
+    "titleSelector": "a",
+    "linkSelector": "a",
+    "dateSelector": ".chapter-release-date i"
+  },
+  "pageList": {
+    "imageSelector": ".wp-manga-chapter-img"
+  }
+}
