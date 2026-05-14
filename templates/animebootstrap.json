@@ -1,0 +1,31 @@
+{
+  "name": "AnimeBootstrap",
+  "version": "1.0",
+  "type": "html",
+  "mangaList": {
+    "endpoint": "/manga/",
+    "pagination": "page",
+    "pageParam": "page",
+    "pathBased": true,
+    "itemSelector": ".bs .bsx",
+    "titleSelector": ".tt",
+    "coverSelector": "img",
+    "linkSelector": "a",
+    "searchEndpoint": "/?s=",
+    "searchParam": "s"
+  },
+  "mangaDetail": {
+    "titleSelector": "h1.entry-title, .infox h1",
+    "coverSelector": ".thumb img",
+    "descriptionSelector": ".entry-content p, .synp .entry-content"
+  },
+  "chapterList": {
+    "selector": "#chapterlist ul li, .cl li",
+    "titleSelector": "span.chapternum, a",
+    "linkSelector": "a",
+    "dateSelector": "span.chapterdate"
+  },
+  "pageList": {
+    "imageSelector": "#readerarea img, .reader-area img"
+  }
+}
