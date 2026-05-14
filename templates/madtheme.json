@@ -1,7 +1,11 @@
 {
   "name": "Madtheme",
-  "version": "1.0",
+  "version": "1.1",
   "type": "html",
+  "fingerprints": [
+    "book-item",
+    "book-detailed-item"
+  ],
   "mangaList": {
     "endpoint": "/search/",
     "pagination": "page",
