@@ -1,7 +1,13 @@
 {
   "name": "HeanCms",
-  "version": "1.0",
+  "version": "1.1",
   "type": "html",
+  "endpointProbes": [
+    {
+      "path": "/api/series",
+      "contains": "series_slug"
+    }
+  ],
   "mangaList": {
     "endpoint": "/series",
     "pagination": "page",
