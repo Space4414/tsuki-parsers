@@ -1,0 +1,30 @@
+{
+  "name": "Scan",
+  "version": "1.0",
+  "type": "html",
+  "mangaList": {
+    "endpoint": "/manga-list",
+    "pagination": "page",
+    "pageParam": "page",
+    "itemSelector": ".manga-item, .manga-card",
+    "titleSelector": "h3 a, .manga-title a",
+    "coverSelector": "img.cover, img",
+    "linkSelector": "h3 a, .manga-title a",
+    "searchEndpoint": "/search",
+    "searchParam": "q"
+  },
+  "mangaDetail": {
+    "titleSelector": "h1.manga-title, h1",
+    "coverSelector": ".manga-cover img, img.cover",
+    "descriptionSelector": ".manga-description, .description p",
+    "statusSelector": ".manga-status, span.status"
+  },
+  "chapterList": {
+    "selector": ".chapter-list li, ul.chapters li",
+    "titleSelector": "a",
+    "linkSelector": "a"
+  },
+  "pageList": {
+    "imageSelector": ".chapter-page img, .page-image img"
+  }
+}
